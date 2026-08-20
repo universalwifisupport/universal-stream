@@ -17,13 +17,13 @@ export function FinalCTA() {
             </p>
             <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="tel:+18332407057"
+                href="tel:+18888824130"
                 className="bg-cta text-primary-foreground px-6 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold flex items-center justify-center gap-3 glow-emerald text-base sm:text-xl hover:scale-[1.02] transition"
               >
-                <Play className="h-5 w-5" fill="currentColor" /> Call (833) 240-7057
+                <Play className="h-5 w-5" fill="currentColor" /> Call (888) 882-4130
               </a>
               <a
-                href="tel:+18332407057"
+                href="tel:+18888824130"
                 className="glass-strong px-6 sm:px-10 py-4 sm:py-5 rounded-2xl font-semibold flex items-center justify-center gap-2 hover:bg-white/10 transition"
               >
                 Talk to our team <ArrowRight className="h-4 w-4" />

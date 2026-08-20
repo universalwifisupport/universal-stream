@@ -110,10 +110,10 @@ export function Hero() {
             {/* CTAs */}
             <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
               <a
-                href="tel:+18332407057"
+                href="tel:+18888824130"
                 className="bg-cta text-primary-foreground px-7 py-4 rounded-xl font-semibold inline-flex items-center justify-center gap-2 glow-emerald hover:scale-[1.02] transition text-base"
               >
-                <Play className="h-5 w-5" fill="currentColor" /> Call (833) 240-7057
+                <Play className="h-5 w-5" fill="currentColor" /> Call (888) 882-4130
               </a>
               <Link
                 to="/services"

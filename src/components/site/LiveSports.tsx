@@ -23,10 +23,10 @@ export function LiveSports() {
             multi-view, real-time stats and instant replays.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href="tel:+18332407057" className="bg-cta text-primary-foreground px-6 py-3 rounded-xl font-semibold flex items-center gap-2 glow-emerald">
-              <Play className="h-4 w-4" fill="currentColor" /> Call (833) 240-7057
+            <a href="tel:+18888824130" className="bg-cta text-primary-foreground px-6 py-3 rounded-xl font-semibold flex items-center gap-2 glow-emerald">
+              <Play className="h-4 w-4" fill="currentColor" /> Call (888) 882-4130
             </a>
-            <a href="tel:+18332407057" className="glass-strong px-6 py-3 rounded-xl font-semibold flex items-center gap-2">
+            <a href="tel:+18888824130" className="glass-strong px-6 py-3 rounded-xl font-semibold flex items-center gap-2">
               Talk to an expert <ArrowRight className="h-4 w-4" />
             </a>
           </div>

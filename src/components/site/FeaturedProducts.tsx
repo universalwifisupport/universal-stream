@@ -40,10 +40,10 @@ export function FeaturedProducts() {
               <h3 className="text-xl font-bold">{p.name}</h3>
               <p className="mt-2 text-sm text-muted-foreground flex-1">{p.desc}</p>
               <a
-                href="tel:+18332407057"
+                href="tel:+18888824130"
                 className="mt-5 bg-cta text-primary-foreground px-4 py-3 rounded-xl font-semibold flex items-center justify-center gap-2 glow-emerald text-sm"
               >
-                Call (833) 240-7057 <ArrowRight className="h-4 w-4" />
+                Call (888) 882-4130 <ArrowRight className="h-4 w-4" />
               </a>
             </div>
           </div>

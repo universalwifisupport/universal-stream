@@ -68,10 +68,10 @@ function ProductsPage() {
                 ))}
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <a href="tel:+18332407057" className="bg-cta text-primary-foreground px-6 py-3 rounded-xl font-semibold glow-emerald flex items-center gap-2">
-                  Call (833) 240-7057 <ArrowRight className="h-4 w-4" />
+                <a href="tel:+18888824130" className="bg-cta text-primary-foreground px-6 py-3 rounded-xl font-semibold glow-emerald flex items-center gap-2">
+                  Call (888) 882-4130 <ArrowRight className="h-4 w-4" />
                 </a>
-                <a href="tel:+18332407057" className="glass-strong px-6 py-3 rounded-xl font-semibold">Talk to an expert</a>
+                <a href="tel:+18888824130" className="glass-strong px-6 py-3 rounded-xl font-semibold">Talk to an expert</a>
               </div>
             </div>
           </div>

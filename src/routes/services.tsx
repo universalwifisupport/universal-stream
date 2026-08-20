@@ -70,8 +70,8 @@ function ServicesPage() {
                     </li>
                   ))}
                 </ul>
-                <a href="tel:+18332407057" className="mt-8 inline-flex items-center gap-2 bg-cta text-primary-foreground px-6 py-3 rounded-xl font-semibold glow-emerald">
-                  Call (833) 240-7057 <ArrowRight className="h-4 w-4" />
+                <a href="tel:+18888824130" className="mt-8 inline-flex items-center gap-2 bg-cta text-primary-foreground px-6 py-3 rounded-xl font-semibold glow-emerald">
+                  Call (888) 882-4130 <ArrowRight className="h-4 w-4" />
                 </a>
               </div>
               <div className="relative aspect-video rounded-2xl ring-gradient overflow-hidden">

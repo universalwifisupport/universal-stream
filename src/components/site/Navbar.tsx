@@ -70,10 +70,10 @@ export function Navbar() {
 
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="tel:+18332407057"
+              href="tel:+18888824130"
               className="bg-cta text-primary-foreground px-4 lg:px-5 py-2.5 rounded-xl text-sm font-semibold hover:opacity-90 transition-opacity glow-emerald flex items-center gap-2"
             >
-              <Play className="h-4 w-4" fill="currentColor" /> Call (833) 240-7057
+              <Play className="h-4 w-4" fill="currentColor" /> Call (888) 882-4130
             </a>
           </div>
 
@@ -98,10 +98,10 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="tel:+18332407057"
+              href="tel:+18888824130"
               className="mt-2 bg-cta text-primary-foreground px-4 py-3 rounded-xl text-center font-semibold flex items-center justify-center gap-2 glow-emerald"
             >
-              <Play className="h-4 w-4" fill="currentColor" /> Call (833) 240-7057
+              <Play className="h-4 w-4" fill="currentColor" /> Call (888) 882-4130
             </a>
           </div>
         )}
