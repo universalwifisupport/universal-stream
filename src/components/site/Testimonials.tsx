@@ -2,7 +2,7 @@ import { Section } from "./Section";
 import { Star } from "lucide-react";
 
 const reviews = [
-  { name: "Maya R.", role: "Designer · Brooklyn", text: "Setup took ten minutes. The picture on my OLED is unreal — like a cinema in my apartment.", rating: 5 },
+  { name: "Maya R.", role: "Designer · Brooklyn", text: "Setup took ten minutes. The picture on my OLED is unreal, like a cinema in my apartment.", rating: 5 },
   { name: "Daniel K.", role: "Family of 5 · Austin", text: "Family profiles solved our chaos. The kids' row stays kids, my action movies stay mine.", rating: 5 },
   { name: "Priya S.", role: "Sports nut · London", text: "Multi-view during the playoffs was a game changer. I'll never go back.", rating: 5 },
   { name: "Ahmed T.", role: "Audiophile · Toronto", text: "Lossless audio over Wi-Fi 6E sounds better than my old wired setup. Magic.", rating: 5 },

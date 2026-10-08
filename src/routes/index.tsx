@@ -14,9 +14,9 @@ import { FinalCTA } from "@/components/site/FinalCTA";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Universal Stream — Your universe of movies, live TV & originals" },
-      { name: "description", content: "50,000+ movies, live channels, sports and originals — beautifully unified on every screen. Start your 30-day free trial." },
-      { property: "og:title", content: "Universal Stream — Your universe of streaming" },
+      { title: "Streaming Help | Your universe of movies, live TV & originals" },
+      { name: "description", content: "50,000+ movies, live channels, sports and originals, beautifully unified on every screen. Start your 30-day free trial." },
+      { property: "og:title", content: "Streaming Help | Your universe of streaming" },
       { property: "og:description", content: "One cinematic ecosystem. Every movie, live channel and playlist you love." },
     ],
   }),

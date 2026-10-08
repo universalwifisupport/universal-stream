@@ -60,12 +60,12 @@ export function MoviesMarquee() {
       <div className="absolute inset-0 dot-bg opacity-30" />
       <div className="container mx-auto px-4 sm:px-6 relative">
         <div className="max-w-3xl">
-          <span className="text-xs font-semibold tracking-[0.25em] uppercase text-emerald-glow">Trending on Universal Stream</span>
+          <span className="text-xs font-semibold tracking-[0.25em] uppercase text-emerald-glow">Trending on Streaming Help</span>
           <h2 className="mt-3 text-4xl md:text-6xl font-bold">
             50,000+ titles. <span className="text-gradient">Zero limits.</span>
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl">
-            New blockbusters, cult classics, live sports and hand-picked originals — refreshed every week.
+            New blockbusters, cult classics, live sports and hand-picked originals, refreshed every week.
           </p>
         </div>
       </div>

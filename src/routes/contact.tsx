@@ -6,9 +6,9 @@ import { BRAND_EMAIL, BRAND_ADDRESS } from "@/lib/contact";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Universal Stream" },
-      { name: "description", content: "Reach the Universal Stream team for sales, support and partnerships. We reply within a few hours." },
-      { property: "og:title", content: "Contact Universal Stream" },
+      { title: "Contact | Streaming Help" },
+      { name: "description", content: "Reach the Streaming Help team for sales, support and partnerships. We reply within a few hours." },
+      { property: "og:title", content: "Contact Streaming Help" },
       { property: "og:description", content: "We're here to help you stream smarter." },
     ],
   }),
@@ -28,7 +28,7 @@ function ContactPage() {
       <Section
         eyebrow="Contact"
         title={<>Let's get you <span className="text-gradient">streaming</span></>}
-        subtitle="Questions, demos, partnerships — our team usually replies in under an hour."
+        subtitle="Questions, demos, partnerships. Our team usually replies in under an hour."
       />
 
       <div className="container mx-auto px-6 grid lg:grid-cols-5 gap-8">

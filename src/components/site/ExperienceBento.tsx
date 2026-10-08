@@ -21,7 +21,7 @@ export function ExperienceBento() {
     <Section
       eyebrow="Streaming Experience"
       title={<>One ecosystem, <span className="text-gradient">every screen</span></>}
-      subtitle="Movies, sports, music and more — beautifully unified across devices."
+      subtitle="Movies, sports, music and more, beautifully unified across devices."
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
         {items.map(({ icon: Icon, title, desc, img, span }) => (

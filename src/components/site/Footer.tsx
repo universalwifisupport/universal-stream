@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Twitter, Instagram, Youtube, Facebook, Mail, ArrowRight, Phone } from "lucide-react";
-import logo from "@/assets/logo-universal-stream.svg";
+import logo from "@/assets/logo-streaming-help.svg";
 import { BRAND_EMAIL, BRAND_PHONE_DISPLAY, BRAND_PHONE_HREF } from "@/lib/contact";
 
 export function Footer() {
@@ -37,12 +37,12 @@ export function Footer() {
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-10">
           <div className="col-span-2">
-            <Link to="/" className="flex items-center" aria-label="Universal Stream">
-              <img src={logo} alt="Universal Stream" width={1600} height={544} loading="lazy" className="h-14 sm:h-16 w-auto object-contain" />
+            <Link to="/" className="flex items-center" aria-label="Streaming Help">
+              <img src={logo} alt="Streaming Help" width={1600} height={544} loading="lazy" className="h-14 sm:h-16 w-auto object-contain" />
             </Link>
 
             <p className="mt-4 text-sm text-muted-foreground max-w-sm">
-              Your entire streaming universe — movies, live TV, sports, music and originals —
+              Your entire streaming universe: movies, live TV, sports, music and originals,
               beautifully unified on every screen you own.
             </p>
             <a href={BRAND_PHONE_HREF} className="mt-4 inline-flex items-center gap-2 text-base font-semibold text-foreground hover:text-primary transition">
@@ -95,7 +95,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Universal Stream Inc. Owned by Kiran Kapoor. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Streaming Help Inc. Owned by Kiran Kapoor. All rights reserved.</p>
           <p>Made for people who love the story on the screen.</p>
         </div>
       </div>

@@ -13,7 +13,7 @@ const features = [
 export function WhyUs() {
   return (
     <Section
-      eyebrow="Why Universal Stream"
+      eyebrow="Why Streaming Help"
       title={<>Engineered for the <span className="text-gradient">love of TV</span></>}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

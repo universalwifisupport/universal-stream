@@ -17,7 +17,7 @@ export function FeaturedProducts() {
     <Section
       eyebrow="Featured Devices"
       title={<>Hardware built for <span className="text-gradient">binge nights</span></>}
-      subtitle="Every device is designed to feel invisible — until the magic begins."
+      subtitle="Every device is designed to feel invisible until the magic begins."
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
         {products.map((p) => (

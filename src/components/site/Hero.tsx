@@ -69,7 +69,7 @@ export function Hero() {
 
       <div className="container mx-auto px-4 sm:px-6 relative">
         <div className="grid lg:grid-cols-[1.05fr_1fr] gap-10 lg:gap-16 items-center">
-          {/* LEFT — cinematic headline */}
+          {/* LEFT: cinematic headline */}
           <div className="animate-fade-up">
             <span className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-[11px] font-semibold tracking-[0.2em] uppercase mb-6">
               <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
@@ -88,7 +88,7 @@ export function Hero() {
             </h1>
 
             <p className="mt-7 max-w-xl text-base sm:text-lg text-muted-foreground">
-              50,000+ blockbusters, live channels, sports and originals — streamed in 4K Dolby Vision on
+              50,000+ blockbusters, live channels, sports and originals, streamed in 4K Dolby Vision on
               every screen you own. Cancel anytime.
             </p>
 
@@ -138,7 +138,7 @@ export function Hero() {
             </div>
           </div>
 
-          {/* RIGHT — animated poster wall */}
+          {/* RIGHT: animated poster wall */}
           <div className="relative animate-fade-up [animation-delay:180ms]">
             <div className="absolute -inset-6 bg-mesh opacity-30 blur-3xl rounded-[3rem]" />
             <div className="relative grid grid-cols-3 gap-3 h-[520px] md:h-[600px] lg:h-[640px]">

@@ -6,9 +6,9 @@ import family from "@/assets/family.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Universal Stream" },
-      { name: "description", content: "We're building the smartest entertainment ecosystem for the modern home. Meet the team behind Universal Stream." },
-      { property: "og:title", content: "About Universal Stream" },
+      { title: "About | Streaming Help" },
+      { name: "description", content: "We're building the smartest entertainment ecosystem for the modern home. Meet the team behind Streaming Help." },
+      { property: "og:title", content: "About Streaming Help" },
       { property: "og:description", content: "Our mission: stream smarter, live brighter." },
     ],
   }),
@@ -18,7 +18,7 @@ export const Route = createFileRoute("/about")({
 const milestones = [
   { y: "2019", t: "Founded", d: "Two engineers, one stubborn idea: streaming should just work." },
   { y: "2021", t: "First device", d: "StreamStick ships to 50,000 homes in 8 weeks." },
-  { y: "2023", t: "1M households", d: "Crossed seven figures and launched Universal Stream+." },
+  { y: "2023", t: "1M households", d: "Crossed seven figures and launched Streaming Help+." },
   { y: "2026", t: "Today", d: "2M+ homes streaming smarter across 40 countries." },
 ];
 
@@ -57,7 +57,7 @@ function AboutPage() {
         <div className="grid md:grid-cols-2 gap-12">
           <p className="text-lg text-muted-foreground">
             Streaming should not require a tech degree. We design devices, software and services
-            that vanish into the background — so what's left is the story on the screen and the
+            that vanish into the background, so what's left is the story on the screen and the
             people watching it with you.
           </p>
           <p className="text-lg text-muted-foreground">
@@ -65,7 +65,7 @@ function AboutPage() {
             faster and more beautiful? If the answer is no, it doesn't ship.
           </p>
           <p className="text-lg text-muted-foreground md:col-span-2">
-            Universal Stream is proudly owned by <span className="font-semibold text-foreground">Kiran Kapoor</span>,
+            Streaming Help is proudly owned by <span className="font-semibold text-foreground">Kiran Kapoor</span>,
             whose vision continues to guide our mission to make entertainment effortless for every home.
           </p>
         </div>

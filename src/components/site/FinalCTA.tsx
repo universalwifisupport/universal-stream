@@ -10,7 +10,7 @@ export function FinalCTA() {
           <div className="relative max-w-3xl mx-auto">
             <span className="text-xs font-semibold tracking-[0.25em] uppercase text-emerald-glow">Ready when you are</span>
             <h2 className="mt-4 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.05]">
-              Press play on your <span className="text-gradient">Universal Stream.</span>
+              Press play on your <span className="text-gradient">Streaming Help.</span>
             </h2>
             <p className="mt-6 text-base sm:text-lg text-muted-foreground">
               Free 30-day trial. Cancel anytime. Zero setup fees.

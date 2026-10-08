@@ -10,9 +10,9 @@ import cinema from "@/assets/device-cinema.jpg";
 export const Route = createFileRoute("/products")({
   head: () => ({
     meta: [
-      { title: "Devices — Universal Stream Streaming Products" },
+      { title: "Devices | Streaming Help Streaming Products" },
       { name: "description", content: "Premium streaming boxes, sticks and hubs. 4K, 8K, voice remote and Wi-Fi 6E. Free shipping." },
-      { property: "og:title", content: "Universal Stream Devices" },
+      { property: "og:title", content: "Streaming Help Devices" },
       { property: "og:description", content: "Hardware that disappears. Magic that stays." },
     ],
   }),
@@ -29,7 +29,7 @@ const products = [
     specs: { Resolution: "4K @ 60fps", HDR: "HDR10+", "Wi-Fi": "Wi-Fi 6 dual-band", Storage: "8 GB", Audio: "Dolby Digital+" },
     has: { "4K HDR": true, "8K": false, Voice: true, Atmos: false, Ethernet: false } },
   { name: "SmartBeam Hub", img: hub, tag: "Smart Home", glow: "glow-teal",
-    desc: "A voice-first hub that ties your whole home together — TV, lights, speakers, scenes.",
+    desc: "A voice-first hub that ties your whole home together: TV, lights, speakers, scenes.",
     specs: { Resolution: "4K @ 60fps", HDR: "Dolby Vision", "Wi-Fi": "Wi-Fi 6E", Storage: "16 GB", Audio: "Dolby Atmos" },
     has: { "4K HDR": true, "8K": false, Voice: true, Atmos: true, Ethernet: true } },
   { name: "HomeCinema Max", img: cinema, tag: "Theater", glow: "",

@@ -97,7 +97,7 @@
 :root {
   --radius: 1rem;
 
-  /* Netflix noir — crimson red on true black */
+  /* Netflix noir: crimson red on true black */
   --background: oklch(0.09 0.005 20);
   --foreground: oklch(0.98 0.005 20);
   --card: oklch(0.13 0.01 20);

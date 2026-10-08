@@ -12,6 +12,7 @@ import appCss from "../styles.css?url";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { SupportFab } from "@/components/site/SupportFab";
+import { OfferPopup } from "@/components/site/OfferPopup";
 
 function NotFoundComponent() {
   return (
@@ -51,9 +52,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Universal Stream — Premium Streaming Ecosystem" },
+      { title: "Streaming Help | Premium Streaming Ecosystem" },
       { name: "description", content: "Stream 50,000+ movies, live TV, sports and originals across every screen. Beautiful, unified, personal." },
-      { property: "og:title", content: "Universal Stream — Premium Streaming" },
+      { property: "og:title", content: "Streaming Help | Premium Streaming" },
       { property: "og:description", content: "Your universe of movies, live TV and originals." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -97,6 +98,7 @@ function RootComponent() {
         </main>
         <Footer />
         <SupportFab />
+        <OfferPopup />
       </div>
     </QueryClientProvider>
   );

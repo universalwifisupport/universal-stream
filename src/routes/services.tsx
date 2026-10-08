@@ -13,9 +13,9 @@ import bundleImg from "@/assets/srv-bundle.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Universal Stream" },
+      { title: "Services | Streaming Help" },
       { name: "description", content: "Streaming setup, smart home integration, premium support and optimization services for modern homes." },
-      { property: "og:title", content: "Universal Stream Services" },
+      { property: "og:title", content: "Streaming Help Services" },
       { property: "og:description", content: "White-glove streaming, end to end." },
     ],
   }),
@@ -25,7 +25,7 @@ export const Route = createFileRoute("/services")({
 const services = [
   { icon: Settings, img: setupImg, title: "Streaming Consultation", desc: "A 30-minute session with a streaming strategist to map out the perfect setup for your home, household and budget.", points: ["Personalized device match", "App stack recommendation", "Cost-saving subscription audit"] },
   { icon: Home, img: smartImg, title: "Smart Home Integration", desc: "Unify your TVs, speakers, lights and assistants into a single, scene-based entertainment system.", points: ["Works with Alexa, Google, Apple", "Multi-room sync", "One-tap movie scenes"] },
-  { icon: Wrench, img: installImg, title: "Device Setup & Installation", desc: "Certified pros mount, wire, and configure every device — leaving your space spotless.", points: ["Cable management", "Calibration included", "Same-day in 80+ cities"] },
+  { icon: Wrench, img: installImg, title: "Device Setup & Installation", desc: "Certified pros mount, wire, and configure every device, leaving your space spotless.", points: ["Cable management", "Calibration included", "Same-day in 80+ cities"] },
   { icon: CreditCard, img: supportImg, title: "Premium Streaming Support", desc: "24/7 priority support, proactive monitoring and remote diagnostics for your entire ecosystem.", points: ["Dedicated specialist", "Sub-2 minute response", "Hardware-on-loan during repairs"] },
   { icon: Gauge, img: optimizeImg, title: "Performance Optimization", desc: "Network audit, mesh tuning and codec calibration for buffer-free 4K and 8K streams.", points: ["Wi-Fi heatmap", "QoS tuning", "Streaming benchmark report"] },
   { icon: Users2, img: bundleImg, title: "Entertainment Bundles", desc: "Curated subscription bundles that save up to 40% versus buying apps individually.", points: ["Mix-and-match plans", "Single bill", "Cancel anytime"] },
@@ -44,7 +44,7 @@ function ServicesPage() {
       <Section
         eyebrow="Services"
         title={<>Concierge for your <span className="text-gradient">entertainment</span></>}
-        subtitle="From first plug to perfect picture — we handle every detail so you just press play."
+        subtitle="From first plug to perfect picture. We handle every detail so you just press play."
       />
 
       <div className="container mx-auto px-6 -mt-12">

@@ -1,7 +1,7 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X, Play } from "lucide-react";
-import logo from "@/assets/logo-universal-stream.svg";
+import logo from "@/assets/logo-streaming-help.svg";
 
 const links = [
   { to: "/", label: "Home" },
@@ -37,10 +37,10 @@ export function Navbar() {
             scrolled ? "glass-strong shadow-elevated" : "bg-transparent"
           }`}
         >
-          <Link to="/" className="flex items-center group min-w-0" aria-label="Universal Stream">
+          <Link to="/" className="flex items-center group min-w-0" aria-label="Streaming Help">
             <img
               src={logo}
-              alt="Universal Stream"
+              alt="Streaming Help"
               width={1600}
               height={544}
               className="h-12 sm:h-14 md:h-16 w-auto object-contain shrink-0 drop-shadow-[0_0_14px_rgba(229,9,20,0.35)]"

@@ -15,6 +15,6 @@
   <circle cx="272" cy="272" r="200" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="8"/>
   <path d="M225 175 L385 272 L225 369 Z" fill="#ffffff"/>
 
-  <text x="530" y="255" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="150" fill="url(#text-grad)" letter-spacing="-2">UNIVERSAL</text>
-  <text x="530" y="400" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="150" fill="url(#mark-grad)" letter-spacing="-2">STREAM</text>
+  <text x="530" y="255" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="150" fill="url(#text-grad)" letter-spacing="-2">STREAMING</text>
+  <text x="530" y="400" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="150" fill="url(#mark-grad)" letter-spacing="-2">HELP</text>
 </svg>
